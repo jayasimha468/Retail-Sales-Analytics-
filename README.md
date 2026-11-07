@@ -168,7 +168,7 @@ The dashboard will open in your browser.
 
 ## 👨‍💻 Author
 
-**Jayasimha Obulam**
+**Jayasimha Obulam** 
 
 B.Tech – Artificial Intelligence and Machine Learning
 
