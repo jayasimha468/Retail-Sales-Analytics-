@@ -8,15 +8,9 @@
 
 Retail Sales Analytics is an end-to-end data analytics project focused on analyzing retail business performance and generating meaningful business insights.
 
-The project uses Python and Pandas for data cleaning and exploratory data analysis, SQLite for SQL-based business analysis, and Streamlit with Plotly to build an interactive dashboard.
+This project uses Python and Pandas for data cleaning and exploratory data analysis, SQLite for SQL-based business analysis, and Streamlit with Plotly to build an interactive dashboard.
 
-The objective is to understand sales and profitability, evaluate regional and category performance, identify loss-making areas, and present findings through interactive visualizations.
-
-## 🏗️ Project Architecture
-
-The following architecture diagram illustrates the complete workflow, from raw data processing to dashboard deployment.
-
-![Retail Sales Analytics Project Architecture](architecture.png)
+The main objective is to analyze sales and profitability, evaluate regional and category performance, identify loss-making areas, and present findings through interactive visualizations.
 
 ## 🎯 Business Objectives
 
@@ -26,6 +20,12 @@ The following architecture diagram illustrates the complete workflow, from raw d
 - Evaluate the relationship between discounts and profitability.
 - Analyze customer segments and shipping methods.
 - Build an interactive dashboard to communicate business insights.
+
+## 🏗️ Project Architecture
+
+The following diagram illustrates the complete workflow, from data processing and SQL analysis to dashboard development and deployment.
+
+![Retail Sales Analytics Project Architecture](Retail%20Sales%20Analytics%20Architecture%20Infographic.png)
 
 ## 📂 Dataset
 
@@ -45,15 +45,16 @@ The following architecture diagram illustrates the complete workflow, from raw d
 | Python | Data analysis |
 | Pandas | Data cleaning and manipulation |
 | NumPy | Numerical operations |
-| SQLite | SQL-based data analysis |
+| SQLite | Database management and analysis |
 | SQL | Business queries and aggregations |
 | Plotly | Interactive visualizations |
 | Streamlit | Dashboard development |
-| Git & GitHub | Version control and project hosting |
+| Git & GitHub | Version control |
 
 ## 🔄 Project Workflow
 
 ### 1. Data Cleaning and Preparation
+
 - Loaded the retail dataset using Pandas.
 - Inspected data types and dataset structure.
 - Checked for missing values and duplicate records.
@@ -61,6 +62,7 @@ The following architecture diagram illustrates the complete workflow, from raw d
 - Prepared the cleaned dataset for analysis.
 
 ### 2. Exploratory Data Analysis (EDA)
+
 - Analyzed sales and profit distribution.
 - Compared category and subcategory performance.
 - Evaluated regional sales and profitability.
@@ -129,7 +131,7 @@ Retail-Sales-Analytics/
 ├── app.py
 ├── requirements.txt
 ├── retail_cleaned.csv
-├── architecture.png
+├── Retail Sales Analytics Architecture Infographic.png
 └── README.md
 ```
 
@@ -161,14 +163,14 @@ streamlit run app.py
 
 The dashboard will open in your browser.
 
-## 📌 Project Links
+## 🔗 Project Links
 
 - **Live Dashboard:** https://2pfarusyhrhi4upvp5oufd.streamlit.app/
 - **GitHub Repository:** https://github.com/jayasimha468/Retail-Sales-Analytics-
 
 ## 👨‍💻 Author
 
-**Jayasimha Obulam** 
+**Jayasimha Obulam**
 
 B.Tech – Artificial Intelligence and Machine Learning
 
